@@ -48,6 +48,31 @@
 
       </header>
 
+
+      {% if site.resume_section_research_interests %}
+      <!-- begin Research Interest -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Research Interest</h2>
+        </header>
+
+        <ul>
+        {% for interest in site.data.research_interests %}
+        <div class="resume-item" itemscope itemprop="research_interest" itemtype="http://schema.org/ReasearchInterest">
+          <li><h5 class="resume-item-details" itemprop="description">{{ interest.subject }}</h5></li>
+          <!-- <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4> -->
+          <!-- <p class="resume-item-copy">{{ job.summary }}</p> -->
+
+        </div><!-- end of resume-item -->
+        {% endfor %}
+        </ul>
+
+      </section>
+      <!-- end Research Interest -->
+      {% endif %}
+
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
