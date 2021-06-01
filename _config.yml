@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Mohammad A. Heydari"
-resume_title:                   "Student & Researcher"
+resume_title:                   "Student"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "ostadgeorge@gmail.com"
@@ -23,7 +23,7 @@ resume_contact_address:         "Iran, Mazandaran, Sari"
 resume_header_contact_info:     "Iran, Mazandaran, Sari • +(98) 911-581-4641 • ostadgeorge@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>Hi!<br><br>My name is Mohammad Ali Heyadri. I'm a computer science student in bachelor program of <a href='https://aut.ac.ir/'>Amirkabir University of Technology</a>, and I'm interested in anything which is related to learning (e.g. Deep Learning, Machine Learning, Reinforcement Learning, Bandit Learing, Federated learning, ...).<br><br>Here you can find my <a href='#'>CV</a>.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
