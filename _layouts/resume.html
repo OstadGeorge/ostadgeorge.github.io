@@ -109,7 +109,7 @@
 
         <ul>
         {% for honor in site.data.honors_awards %}
-        <div class="resume-item" itemscope itemprop="research_interest" itemtype="http://schema.org/ReasearchInterest">
+        <div class="resume-item" itemscope itemprop="honors_awards" itemtype="http://schema.org/honors_awards">
           <li><h5 class="resume-item-details" itemprop="description">{{ honor.subject }} &bull; {{ honor.year }}</h5></li>
           <!-- <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4> -->
           <!-- <p class="resume-item-copy">{{ job.summary }}</p> -->
@@ -123,6 +123,28 @@
       {% endif %}
 
 
+      {% if site.resume_section_selected_course %}
+      <!-- begin selected courses -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Selected Courses</h2>
+        </header>
+
+        {% for course in site.data.selected_course %}
+        <div class="resume-item" itemscope itemprop="selected_course" itemtype="http://schema.org/selected_course">
+          <h4 class="resume-item-details" itemprop="description">{{ course.type }}</h3>
+          <ul>
+          {% for cls in course.detail %}
+          <li><p class="resume-item-details" itemprop="description">{{ cls.subject }} &bull; {{ cls.date }}</p></li>
+          {% endfor %}
+          </ul>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end selected courses -->
+      {% endif %}
 
 
 

@@ -1,0 +1,42 @@
+- type: University Courses
+  detail:
+    - subject: Reinforcement Learning (CS234) - Prof. Emma Brunskill (Stanford)
+      date: Audited
+
+    - subject: Stochastic process - Prof. Erfan Salavati (AUT)
+      date: Spring 2021
+
+    - subject: Deep Learning - Prof. Hamid Beigy (SUT)
+      date: Audited
+
+    - subject: Deep Learning - Prof. Ahmad Kalhor (UT)
+      date: Audited
+
+    - subject: Deep Neural Networks (CS229a) - Prof. Andrew Ng (Stanford)
+      date: Audited
+
+    - subject: Machine Learning - Prof. Mohammad Hossein Rohban (SUT)
+      date: Audited
+
+    - subject: Probability 1 - Prof. Omid Naghshineh (AUT)
+      date: Fall 2020
+
+    - subject: Statistical Inference - Prof. Behnam Bahrak (UT)
+      date: Audited
+
+    - subject: Advance Programming - Prof. Hossein Zeinali (AUT)
+      date: Spring 2020
+
+    - subject: Data Structures and Algorithms - Prof. Farzane Salari (AUT)
+      date: Fall 2020
+  
+- type: Online Courses
+  detail:
+    - subject: Deep Learning Specialization - Prof. Andrew Ng
+      date: Winter 2020
+
+    - subject: "Mathematics for Machine Learning: Linear Algebra"
+      date: Winter 2020
+
+    - subject: Introduction to Data Science in Python
+      date: Winter 2020
