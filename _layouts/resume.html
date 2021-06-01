@@ -99,6 +99,42 @@
       {% endif %}
 
 
+      {% if site.resume_section_honors_awards %}
+      <!-- begin honor and award -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Honors and Awards</h2>
+        </header>
+
+        <ul>
+        {% for honor in site.data.honors_awards %}
+        <div class="resume-item" itemscope itemprop="research_interest" itemtype="http://schema.org/ReasearchInterest">
+          <li><h5 class="resume-item-details" itemprop="description">{{ honor.subject }} &bull; {{ honor.year }}</h5></li>
+          <!-- <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4> -->
+          <!-- <p class="resume-item-copy">{{ job.summary }}</p> -->
+
+        </div><!-- end of resume-item -->
+        {% endfor %}
+        </ul>
+
+      </section>
+      <!-- end honor and award -->
+      {% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">

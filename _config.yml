@@ -41,6 +41,7 @@ resume_section_recognition:         true
 resume_section_links:               true
 resume_section_associations:        true
 resume_section_research_interests:  true
+resume_section_honors_awards:       true
 # resume_section_interests:       true
 
 # Resume social links
